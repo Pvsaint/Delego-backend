@@ -15,12 +15,18 @@
   },
   "dependencies": {
     "@delegolabs/types": "workspace:*",
-    "@delegolabs/utils": "workspace:*"
+    "@delegolabs/utils": "workspace:*",
+    "@delegolabs/cache": "workspace:*",
+    "ioredis": "^5.11.1",
+    "pg": "^8.21.0",
+    "zod": "^3.24.0"
   },
   "devDependencies": {
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "@types/node": "^22.0.0",
+    "@types/pg": "^8.20.0",
+    "ioredis-mock": "^8.13.1",
     "vitest": "^2.0.0"
   }
 }
